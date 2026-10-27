@@ -1,0 +1,4 @@
+,AUC pooled,AUC median per person
+model (all features),0.954,0.969
+motion only,0.708,0.723
+peak dominance only,0.816,0.806

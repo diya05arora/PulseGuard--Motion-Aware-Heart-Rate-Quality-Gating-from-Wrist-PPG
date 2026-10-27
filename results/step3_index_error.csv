@@ -1,0 +1,5 @@
+target coverage,windows with an index,mean error (pp),median error (pp),% windows off by >20pp
+100%,99.3%,18.49,9.11,31.8
+80%,79.3%,10.3,4.61,15.8
+70%,69.3%,7.61,3.69,9.6
+50%,48.4%,5.05,2.85,3.5
