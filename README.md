@@ -8,12 +8,6 @@ A small, reproducible study on the public **PPG-DaLiA** dataset. It asks two que
    trade coverage for accuracy, including for a **baseline-normalized score**, where one bad
    reading corrupts both today's value and the baseline later values are compared against?
 
-> **Scope.** The data is wrist-worn, single-wavelength PPG with ECG ground truth. This is not a
-> head-worn or brain-blood-flow study. The baseline-normalized part uses *heart rate* as a
-> stand-in because it is the only quantity here with ground truth. Motion-artifact handling
-> for wrist PPG is well studied (e.g. TROIKA, Zhang et al., IEEE TBME 2015); this project is a
-> careful end-to-end evaluation of a quality gate, not a new estimation method.
-
 ## Key results
 
 | | Result |
