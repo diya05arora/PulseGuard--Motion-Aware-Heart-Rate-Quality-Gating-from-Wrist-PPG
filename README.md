@@ -155,8 +155,7 @@ pip install -r requirements.txt
 
 1. Download PPG-DaLiA and unzip it into `data/` (any folder layout works; the notebooks search
    recursively for `S1.pkl` ... `S15.pkl`).
-2. Open the notebooks in `notebooks/` and run them in order, with the notebook's own folder as the
-   working directory (the default in Jupyter and VS Code). Notebook 4 reads a file written by
+2. Open the notebooks and run them in order. Notebook 4 reads a file written by
    notebook 3.
 3. Runs on a laptop CPU, no GPU needed. The first pass over the spectra takes several minutes;
    notebooks 2 and 3 share a cache in `results/`, so later runs are faster. Delete the cache file
@@ -166,11 +165,9 @@ pip install -r requirements.txt
 
 ```
 .
-├── notebooks/   01_baseline, 02_fixes, 03_signal_quality, 04_index_demo
+├── 01_baseline, 02_fixes, 03_signal_quality, 04_index_demo
 ├── results/     charts and tables written by the notebooks
 ├── data/        PPG-DaLiA goes here (not committed)
-├── requirements.txt
-└── LICENSE
 ```
 
 ## Possible extensions
